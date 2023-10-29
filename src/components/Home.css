@@ -1,0 +1,758 @@
+* {
+          margin: 0;
+          padding: 0;
+          box-sizing: border-box;
+}
+
+html,
+body {
+          width: 100%;
+}
+
+.Home {
+          width: 100%;
+}
+
+.Home .main {
+          width: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+}
+
+.Home .main .content {
+          width: 85%;
+          height: 100vh;
+          display: flex;
+          /* align-items: center; */
+          justify-content: center;
+          background: #efefefe6;
+}
+
+.Home .main .content .top {
+          width: 75%;
+          height: 15vh;
+          position: fixed;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+}
+
+.Home .main .content .top .left {
+          width: 20%;
+          border-radius: 5px;
+          height: 10vh;
+          font-size: 28px;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          color: #000;
+          background: #ffffff;
+}
+
+.Home .main .content .top .left p {
+          margin-left: 15%;
+}
+
+.Home .main .content .top .medium {
+          width: 50%;
+          border-radius: 5px;
+          height: 10vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          background: #ffffff;
+}
+
+.Home .main .content .top .medium .mid {
+          width: 90%;
+          height: 8vh;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+}
+
+.Home .main .content .top .medium .mid .le {
+          width: 50%;
+          height: 8vh;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+}
+
+.Home .main .content .top .medium .mid .le small {
+          margin-left: 7px;
+          color: #00000079;
+}
+
+.Home .main .content .top .medium .mid .ri {
+          width: 50%;
+          height: 8vh;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+}
+
+.Home .main .content .top .medium .mid .ri span {
+          margin-left: 8px;
+}
+
+.Home .main .content .top .right {
+          width: 20%;
+          border-radius: 5px;
+          height: 10vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          color: #fff;
+          font-size: 13px;
+          font-family: Arial, Helvetica, sans-serif;
+          background: #00b698da;
+}
+
+/* -------------------------------------- */
+.Home .main .content .bottom {
+          width: 75%;
+          height: 80vh;
+          margin-top: 8vmax;
+          position: fixed;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+}
+
+.Home .main .content .bottom .Left {
+          width: 20%;
+          border-radius: 5px;
+          height: 80vh;
+          background: #ffffff;
+          display: flex;
+          font-size: 13.5px;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: column;
+          font-family: Arial, Helvetica, sans-serif;
+          font-weight: 550;
+          color: #00000079;
+}
+
+.Home .main .content .bottom .Left .Ltp {
+          width: 80%;
+          height: 50vh;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+          flex-direction: column;
+}
+
+.Home .main .content .bottom .Left .Ltp p {
+          width: 100%;
+          height: 100%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+}
+
+.Home .main .content .bottom .Left .Ltp i {
+          font-size: 20px;
+}
+
+.Home .main .content .bottom .Left .Ltp span {
+          margin-left: 10%;
+}
+
+.Home .main .content .bottom .Left .Lbt {
+          width: 80%;
+          height: 25vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+}
+
+.Home .main .content .bottom .Left .Lbt p {
+          width: 90%;
+          margin-top: 50%;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+}
+
+.Home .main .content .bottom .Left .Lbt i {
+          font-size: 20px;
+}
+
+.Home .main .content .bottom .Left .Lbt span {
+          margin-left: 8%;
+}
+
+/* --------------------------------- */
+.Home .main .content .bottom .Medium {
+          width: 50%;
+          border-radius: 5px;
+          height: 80vh;
+}
+
+.Home .main .content .bottom .Medium .MainContent {
+          width: 100%;
+          border-radius: 5px;
+          height: 80vh;
+          overflow: hidden;
+          overflow-y: scroll;
+}
+
+.Home .main .content .bottom .Medium .MainContent::-webkit-scrollbar {
+  display: none;
+}
+
+.Home .main .content .bottom .Medium .MainContent .Box {
+          width: 100%;
+          border-radius: 5px;
+          height: 65vh;
+          margin-bottom: 2vmax;
+          background: #ffffff;
+}
+.Home .main .content .bottom .Medium .MainContent .Box .Btop{
+          width: 100%;
+          height: 55vh;
+          border-bottom: 0.5px solid #00000049;
+          display: flex;
+          flex-direction: column;
+          justify-content: space-evenly;
+          align-items: center;
+}
+.Home .main .content .bottom .Medium .MainContent .Box .Btop .one{
+          width: 90%;
+          height: 10vh;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+} 
+.Home .main .content .bottom .Medium .MainContent .Box .Btop .one .Oneleft{
+          width: 35%;
+          height: 10vh;
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          justify-content: space-between;
+} 
+.Home .main .content .bottom .Medium .MainContent .Box .Btop .one .Oneleft img{
+          width: 30%;
+          height: 7vh;
+           border-radius: 10px;
+} 
+.Home .main .content .bottom .Medium .MainContent .Box .Btop .one .Oneleft .heading{
+          width: 65%;
+          height: 8vh;
+          display: flex;
+          flex-direction: column;
+          align-items: flex-start;
+          font-family: Arial, Helvetica, sans-serif;
+          justify-content: space-evenly;
+} 
+
+.Home .main .content .bottom .Medium .MainContent .Box .Btop .one .Oneleft .heading span{
+          font-weight: 700;
+}
+.Home .main .content .bottom .Medium .MainContent .Box .Btop .one .Oneleft .heading small{
+          color: #00000076;
+}
+.Home .main .content .bottom .Medium .MainContent .Box .Btop .one .Oneright{
+          width: 10%;
+          height: 5vh;
+          display: flex;
+          align-items: center;
+          justify-content: flex-end;
+} 
+.Home .main .content .bottom .Medium .MainContent .Box .Btop .one .Oneright i{
+         font-size: 22px;
+} 
+.Home .main .content .bottom .Medium .MainContent .Box .Btop .two{
+          width: 90%;
+          height: 8vh;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 13px;
+          letter-spacing: 1.2px;
+          font-family: Arial, Helvetica, sans-serif;
+} 
+.Home .main .content .bottom .Medium .MainContent .Box .Btop .two p span{
+         color: red;
+} 
+.Home .main .content .bottom .Medium .MainContent .Box .Btop .three{
+          width: 90%;
+          height: 30vh;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          /* background-image: url(https://ih1.redbubble.net/image.2440244085.1262/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.webp); */
+          background-image: url(https://images.pexels.com/photos/2045248/pexels-photo-2045248.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1);
+          border-radius: 10px;
+} 
+.Home .main .content .bottom .Medium .MainContent .Box .Btop .four{
+          width: 90%;
+          height: 30vh;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-image: url(https://ih1.redbubble.net/image.2440244085.1262/bg,f8f8f8-flat,750x,075,f-pad,750x1000,f8f8f8.webp);
+          border-radius: 10px;
+} 
+.Home .main .content .bottom .Medium .MainContent .Box .Bbtm{
+          width: 100%;
+          height: 10vh;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+}
+.Home .main .content .bottom .Medium .MainContent .Box .Bbtm .subscribe{
+          width: 40%;
+          height: 8vh;
+          font-size: 18px;
+          font-weight: 550;
+          color: #000000d4;
+          font-family: Arial, Helvetica, sans-serif;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          margin-left: 5%;
+}
+.Home .main .content .bottom .Medium .MainContent .Box .Bbtm .subscribe .icon{
+          width: 32%;
+          height: 8vh;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+}
+.Home .main .content .bottom .Medium .MainContent .Box .Bbtm .subscribe .icon i{
+          font-weight: 550;
+          font-size: 23px;
+}
+.Home .main .content .bottom .Medium .MainContent .Box .Bbtm .subscribe .icon{
+          width: 32%;
+          height: 8vh;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+}
+.Home .main .content .bottom .Medium .MainContent .BoxLast {
+          width: 100%;
+          border-radius: 5px;
+          height: 40vh;
+          margin-bottom: 2vmax;
+          display: flex;
+          align-items: center;
+          justify-content: flex-start;
+}
+.Home .main .content .bottom .Medium .MainContent .BoxLast .lastOne{
+          width: 50%;
+          height: 30vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+}
+.Home .main .content .bottom .Medium .MainContent .BoxLast .lastOne img{
+          width: 90%;
+          height: 20vh;
+          border-radius: 10px;
+}
+.Home .main .content .bottom .Medium .MainContent .BoxLast .lastOne p{
+          width: 90%;
+          font-family: Arial, Helvetica, sans-serif;
+          color: #000000c0;
+          font-size: 13px;
+          font-weight: 600;
+}
+.Home .main .content .bottom .Medium .MainContent .BoxLast .lastOne .line{
+          width: 90%;
+          height: 5vh;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 25px;
+          font-weight: 600;
+}
+.Home .main .content .bottom .Medium .MainContent .BoxLast .lastOne .line i{
+          font-size: 15px;
+          margin: 0.2vmax;
+          color: rgb(249, 189, 61);
+ }
+.Home .main .content .bottom .Medium .MainContent .BoxLast .lastTwo{
+          width: 50%;
+          height: 30vh;
+          display: flex;
+          flex-direction: column;
+          align-items: center;
+          justify-content: space-evenly;
+}
+.Home .main .content .bottom .Medium .MainContent .BoxLast .lastTwo img{
+          width: 90%;
+          height: 20vh;
+          border-radius: 10px;
+}
+.Home .main .content .bottom .Medium .MainContent .BoxLast .lastTwo p{
+          width: 90%;
+          font-family: Arial, Helvetica, sans-serif;
+          color: #000000c0;
+          font-size: 13px;
+          font-weight: 600;
+}
+.Home .main .content .bottom .Medium .MainContent .BoxLast .lastTwo .line{
+          width: 90%;
+          height: 5vh;
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+          font-family: Arial, Helvetica, sans-serif;
+          font-size: 25px;
+          font-weight: 600;
+}
+.Home .main .content .bottom .Medium .MainContent .BoxLast .lastTwo .line i{
+         font-size: 15px;
+         margin: 0.2vmax;
+         color: rgb(249, 189, 61);
+}
+
+/* ----------------------------------- */
+.Home .main .content .bottom .Right {
+          width: 20%;
+          border-radius: 5px;
+          height: 80vh;
+          background: #ffffff;
+          overflow: hidden;
+          overflow-y: scroll;
+}
+.Home .main .content .bottom .Right::-webkit-scrollbar {
+          width: 8px; 
+        }
+        
+        .Home .main .content .bottom .Right::-webkit-scrollbar-thumb {
+          background-color: #151515e1; 
+          border-radius: 10px; 
+        }
+.Home .main .content .bottom .Right .RightMain{
+          width: 100%;
+          border-radius: 5px;
+          display: flex;
+          align-items: center;
+          justify-content: space-evenly;
+          flex-direction: column;       
+}
+
+.Home .main .content .bottom .Right .RightImg1{
+          width: 90%;
+          height: 18vh;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcSsdf0bGb-0OVBzANu4GXryM-CLlSZuwEkuQWUP2p4jTcCqt7cB);
+          border-radius: 10px;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          margin-bottom: 1.5vmax;
+          margin-top: 1vmax;
+}
+.Home .main .content .bottom .Right .RightImg2{
+          width: 90%;
+          height: 18vh;
+          background: #000;
+          border-radius: 10px;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          margin-bottom: 1.5vmax;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSbjNR6mav5X7PnFsu4eBjJWqr-zIMKip6pN8AgKGjV_BkB13jz);
+
+}.Home .main .content .bottom .Right .RightImg3{
+          width: 90%;
+          height: 18vh;
+          background: #000;
+          border-radius: 10px;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          margin-bottom: 1.5vmax;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-image: url(https://encrypted-tbn2.gstatic.com/images?q=tbn:ANd9GcTvBX4Dmb5A498mzVM80iSU5tq2zrCswh2w2j5FhdV2hD7poKz-);
+
+}.Home .main .content .bottom .Right .RightImg4{
+          width: 90%;
+          height: 18vh;
+          background: #000;
+          border-radius: 10px;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          margin-bottom: 1.5vmax;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-image: url(https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQAIlODKbU89vdFE4ePG_9iSAehRxPRFLx-dDnsEAG5IJW_wiXj);
+
+}.Home .main .content .bottom .Right .RightImg5{
+          width: 90%;
+          height: 18vh;
+          background: #000;
+          border-radius: 10px;
+          display: flex;
+          align-items: flex-end;
+          justify-content: center;
+          margin-bottom: 1.5vmax;
+          background-repeat: no-repeat;
+          background-position: center;
+          background-size: cover;
+          background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTcESrrohMVQ31FEl1NrgM2pXeRQvYdSKbTgcnsEdmLnp4oOIqp);
+}
+.Home .main .content .bottom .Right  .text{
+          z-index: 111;
+          width: 90%;
+          height: 8vh;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: space-around;
+          font-family: Arial, Helvetica, sans-serif;
+}
+.Home .main .content .bottom .Right  .text img{
+           width: 30%;
+           height: 5vh ;
+           border-radius: 10px;
+}
+.Home .main .content .bottom .Right  .text p{
+         font-size: 10px;
+         color: #ffffffc9;
+}
+
+
+
+@media (max-width:600px) {
+           .Home .main {
+                    width: 100%;
+          }
+          
+          .Home .main .content {
+                    width: 100%;
+                    height: auto;
+          }
+          
+          .Home .main .content .top {
+                    width: 100%;
+                    height: 15vh; 
+                    background: #000000cf;
+          }
+          .Home .main .content .top .left {
+                    width: 20%;
+          }
+          
+          .Home .main .content .top .left p {
+                 font-size: 20px;
+          }
+          
+          .Home .main .content .top .medium {
+                    width: 50%;
+                    height: 10vh;
+          }
+          .Home .main .content .top .medium .mid {
+                    width: 95%;
+                    height: 8vh;
+          }
+          
+          .Home .main .content .top .medium .mid .le {
+                    width: 70%;
+          }
+          .Home .main .content .top .right {
+                    width: 25%;
+                    height: 10vh;
+          font-size: 11px;
+          }
+          .Home .main .content .top .right p{
+                    width: 100%;
+                    text-align: center;
+          }
+          .Home .main .content .bottom {
+                    width: 95%;
+                    height: 240vh;
+                    margin-top: 18vmax;
+                    position: initial;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: space-evenly;
+          }
+          
+          .Home .main .content .bottom .Left {
+                    width: 90%;
+                    height: 80vh;
+                    font-size: 15px;
+                    align-items: center;
+                    justify-content: space-evenly;
+                    flex-direction: column;
+          }
+          
+          .Home .main .content .bottom .Left .Ltp {
+                    width: 80%;
+                    height: 50vh;
+                    display: flex;
+                    align-items: center;
+                    justify-content: flex-start;
+                    flex-direction: column;
+          }        
+          .Home .main .content .bottom .Left .Lbt {
+                    width: 80%;
+                    height: 20vh;
+          }
+          
+          .Home .main .content .bottom .Medium {
+                    width: 90%;
+                    height: 80vh;
+                    margin-top: 3vmax;
+          } .Home .main .content .bottom .Right {
+                    width: 100%;
+          }
+          .Home .main .content .bottom .Medium .MainContent .Box .Bbtm .subscribe{
+                    width: 90%;
+                    height: 8vh;
+          }
+          .Home .main .content .bottom .Right {
+                    width: 90%;
+                    margin-top: 2vmax;
+          }
+          .Home .main .content .bottom .Right .RightImg1{
+                  margin-bottom: 2vmax;
+                  width: 95%;
+          } .Home .main .content .bottom .Right .RightImg2{
+                    margin-bottom: 2vmax;
+                    width: 95%;
+            } .Home .main .content .bottom .Right .RightImg3{
+                    margin-bottom: 2vmax;
+                    width: 95%;
+            } .Home .main .content .bottom .Right .RightImg4{
+                    margin-bottom: 2vmax;
+                    width: 95%;
+            } .Home .main .content .bottom .Right .RightImg5{
+                    margin-bottom: 2vmax;
+                    width: 95%;
+            }
+          
+}
+
+
+@media (min-width:600px) and (max-width:950px) {
+          .Home .main {
+                   width: 100%;
+         }
+         
+         .Home .main .content {
+                   width: 100%;
+                   height: auto;
+         }
+         
+         .Home .main .content .top {
+                   width: 100%;
+                   height: 15vh; 
+                   background: #000000cf;
+         }
+         .Home .main .content .top .left {
+                   width: 20%;
+         }
+         
+         .Home .main .content .top .left p {
+                font-size: 20px;
+         }
+         
+         .Home .main .content .top .medium {
+                   width: 50%;
+                   height: 10vh;
+         }
+         .Home .main .content .top .medium .mid {
+                   width: 95%;
+                   height: 8vh;
+         }
+         
+         .Home .main .content .top .medium .mid .le {
+                   width: 70%;
+         }
+         .Home .main .content .top .right {
+                   width: 25%;
+                   height: 10vh;
+         font-size: 11px;
+         }
+         .Home .main .content .top .right p{
+                   width: 100%;
+                   text-align: center;
+         }
+         .Home .main .content .bottom {
+                   width: 95%;
+                   height: 240vh;
+                   margin-top: 18vmax;
+                   position: initial;
+                   display: flex;
+                   flex-direction: column;
+                   align-items: center;
+                   justify-content: space-evenly;
+         }
+         
+         .Home .main .content .bottom .Left {
+                   width: 90%;
+                   height: 80vh;
+                   font-size: 15px;
+                   align-items: center;
+                   justify-content: space-evenly;
+                   flex-direction: column;
+         }
+         
+         .Home .main .content .bottom .Left .Ltp {
+                   width: 80%;
+                   height: 50vh;
+                   display: flex;
+                   align-items: center;
+                   justify-content: flex-start;
+                   flex-direction: column;
+         }        
+         .Home .main .content .bottom .Left .Lbt {
+                   width: 80%;
+                   height: 20vh;
+         }
+         
+         .Home .main .content .bottom .Medium {
+                   width: 90%;
+                   height: 80vh;
+                   margin-top: 3vmax;
+         } .Home .main .content .bottom .Right {
+                   width: 100%;
+         }
+         .Home .main .content .bottom .Medium .MainContent .Box .Bbtm .subscribe{
+                   width: 90%;
+                   height: 8vh;
+         }
+         .Home .main .content .bottom .Right {
+                   width: 90%;
+                   margin-top: 2vmax;
+         }
+         .Home .main .content .bottom .Right .RightImg1{
+                 margin-bottom: 2vmax;
+                 width: 95%;
+         } .Home .main .content .bottom .Right .RightImg2{
+                   margin-bottom: 2vmax;
+                   width: 95%;
+           } .Home .main .content .bottom .Right .RightImg3{
+                   margin-bottom: 2vmax;
+                   width: 95%;
+           } .Home .main .content .bottom .Right .RightImg4{
+                   margin-bottom: 2vmax;
+                   width: 95%;
+           } .Home .main .content .bottom .Right .RightImg5{
+                   margin-bottom: 2vmax;
+                   width: 95%;
+           }
+         
+}
